@@ -1,4 +1,4 @@
-﻿# Runtime Manager Cleaner
+# ![alt text](https://raw.githubusercontent.com/tia-portal-applications/Runtime-manager-cleaner/main/src/icon.ico) Runtime Manager Cleaner
 This tool is intended to **remove** all projects entries in the **SIMATIC Runtime Manager** automatically. It is not meant to be a faster process, but more that it does it for you so you don't have to manually do all that work. The source code is available in the **src** folder, so that you can change the tool to your specific needs.
 
 # How to use
