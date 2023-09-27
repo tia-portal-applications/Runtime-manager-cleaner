@@ -1,5 +1,5 @@
 ﻿# Runtime Manager Cleaner
-This tool is intended to **remove** all projects entries in the **WinCC Unified Runtime Manager** automatically. It is not meant to be a faster process, but more that it does it for you so you don't have to manually do all that work. The source code is available in the **sources** folder, so that you can change the tool to your specific needs.
+This tool is intended to **remove** all projects entries in the **SIMATIC Runtime Manager** automatically. It is not meant to be a faster process, but more that it does it for you so you don't have to manually do all that work. The source code is available in the **sources** folder, so that you can change the tool to your specific needs.
 
 # How to use
  - **Option #1** - Run the executable, available in **releases > RTMngr_Cleaner_V0.1.exe**, with administrator right.
