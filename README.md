@@ -2,8 +2,8 @@
 This tool is intended to **remove** all projects entries in the **WinCC Unified Runtime Manager** automatically. It is not meant to be a faster process, but more that it does it for you so you don't have to manually do all that work. The source code is available in the **sources** folder, so that you can change the tool to your specific needs.
 
 # How to use
- - **Option #1** - Execute the **\build\RTMngr_Cleaner.exe** file in admin mode.
- - **Option #2** - Use source script **\sources\RTMngr_Cleaner.bat** and run it in admin mode.
+ - **Option #1** - Run the executable, available in **releases > RTMngr_Cleaner_V0.1.exe**, with administrator right.
+ - **Option #2** - Use source script in **\src\RTMngr_Cleaner.bat** and run it with administrator right.
 
 ## Requirements and limitations
  - Must be executed in administrator mode
@@ -11,7 +11,7 @@ This tool is intended to **remove** all projects entries in the **WinCC Unified 
  - Cannot make distinciton between entries type project & simulation
 
 ## Principle of operation
-This script will **only use existing functions** of the **Runtime Manager CLI*** do acheive this process. It will generate a text file for all the entries of the RT Manager, then transform the content of it into a temporary file. Finally, from this last one,  we can loop through all of the iterations available and send commands to the RT Manager CLI in order to remove the project from the list.
+This script will **only use existing functions** of the **Runtime Manager CLI** do acheive this process. It will generate a text file for all the entries of the RT Manager, then transform the content of it into a temporary file. Finally, from this last one,  we can loop through all of the iterations available and send commands to the RT Manager CLI in order to remove the project from the list.
 
 > **Tip:** You can find all available commands of the RT Manager over CLI in the **[manual](https://cache.industry.siemens.com/dl/files/308/109813308/att_1122197/v1/WinCC_VisualizingProcessesUnified_enUS_en-US.pdf#page=7511)** in section 17.4.17.
 
