@@ -2,8 +2,8 @@
 This tool is intended to **remove** all projects entries in the **WinCC Unified Runtime Manager** automatically. It is not meant to be a faster process, but more that it does it for you so you don't have to manually do all that work. The source code is available in the **sources** folder, so that you can change the tool to your specific needs.
 
 # How to use
-**Option #1** - Execute the **\build\RTMngr_Cleaner.exe** file in admin mode.
-**Option #2** - Use source script **\sources\RTMngr_Cleaner.bat** and run it in admin mode.
+ - **Option #1** - Execute the **\build\RTMngr_Cleaner.exe** file in admin mode.
+ - **Option #2** - Use source script **\sources\RTMngr_Cleaner.bat** and run it in admin mode.
 
 ## Requirements and limitations
  - Must be executed in administrator mode
